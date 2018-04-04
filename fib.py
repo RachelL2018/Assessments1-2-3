@@ -12,7 +12,7 @@ def fib(n):
   
   return i
 
-# Test the function with the following value.
+
 x = 30
 ans = fib(x)
 print("Fibonacci number", x, "is", ans)
