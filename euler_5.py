@@ -4,7 +4,8 @@
 def divisable(num):
 #for loop which loops 20 times. It also loops through 1 to 20 assigning i a value which increments each time it loops 
     for i in range(1,21):
-        if num % i != 0:# it divides the varaible num by i each time it loops.It also states a condition that if each time num is divided by i it is not even it returns a boolean of false
+        if num % i != 0:# it divides the varaible num by i each time it loops.
+                           #It also states a condition that if each time num is divided by i it is not even it returns a boolean of false
             return False
     return True
 
